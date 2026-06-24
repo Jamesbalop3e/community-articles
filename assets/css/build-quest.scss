@@ -73,6 +73,44 @@ $mmaug-soft: #f6f8fa;
   transition: width 220ms ease;
 }
 
+.bq-celebration {
+  display: none;
+  margin-bottom: 16px;
+}
+
+.bq-ribbon {
+  background: linear-gradient(135deg, #f0c040 0%, #ffd700 50%, #f0c040 100%);
+  color: #000;
+  padding: 16px;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  border: 2px solid #daa520;
+  box-shadow: 0 4px 12px rgba(240, 192, 64, 0.3);
+  animation: slideDown 600ms ease, pulse 600ms ease;
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+}
+
 @media (max-width: 640px) {
   .build-quest {
     padding: 12px;
@@ -81,5 +119,10 @@ $mmaug-soft: #f6f8fa;
   .bq-controls {
     flex-direction: column-reverse;
     gap: 8px;
+  }
+
+  .bq-ribbon {
+    font-size: 14px;
+    padding: 12px;
   }
 }
