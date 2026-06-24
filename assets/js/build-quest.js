@@ -13,6 +13,7 @@
     this.prevBtn = $('.bq-prev', root);
     this.nextBtn = $('.bq-next', root);
     this.progressFill = $('.bq-progress-fill', root);
+    this.celebration = $('.bq-celebration', root);
 
     this.load();
     this.bind();
@@ -58,8 +59,15 @@
       el.style.display = (i === this.current) ? 'block' : 'none';
     });
 
+    const isLastStep = this.current === this.steps.length - 1;
     this.prevBtn.disabled = (this.current === 0);
-    this.nextBtn.disabled = (this.current === this.steps.length - 1);
+    this.nextBtn.disabled = true;
+
+    // Show celebration ribbon on last step, hide otherwise
+    if (this.celebration) {
+      this.celebration.style.display = isLastStep ? 'block' : 'none';
+      this.celebration.setAttribute('aria-hidden', isLastStep ? 'false' : 'true');
+    }
 
     const pct = Math.round(((this.current + 1) / this.steps.length) * 100);
     this.progressFill.style.width = pct + '%';
