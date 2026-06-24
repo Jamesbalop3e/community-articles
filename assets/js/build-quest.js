@@ -61,7 +61,8 @@
 
     const isLastStep = this.current === this.steps.length - 1;
     this.prevBtn.disabled = (this.current === 0);
-    this.nextBtn.disabled = true;
+    // Only disable the Next button when on the last step
+    this.nextBtn.disabled = isLastStep;
 
     // Show celebration ribbon on last step, hide otherwise
     if (this.celebration) {
