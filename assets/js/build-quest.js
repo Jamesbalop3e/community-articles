@@ -110,11 +110,18 @@
     }
   };
 
-  document.addEventListener('DOMContentLoaded', function () {
+  function initBuildQuest() {
     const root = document.getElementById('build-quest');
     if (!root) return;
     // graceful: avoid blocking if localStorage is restricted
     try { new BuildQuest(root); } catch (e) { console.error('Build Quest init failed', e); }
-  });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initBuildQuest);
+  } else {
+    // DOM already ready
+    initBuildQuest();
+  }
 
 })();
