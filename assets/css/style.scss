@@ -1491,6 +1491,39 @@ $mmaug-soft: #f6f8fa;
   animation: slideDown 600ms ease, pulse 600ms ease;
 }
 
+.bq-leaderboard {
+  margin: 12px 0 18px 0;
+  border: 1px solid $mmaug-border;
+  padding: 12px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.bq-leaderboard h3 {
+  margin: 0 0 8px 0;
+  color: $mmaug-dark-blue;
+  font-size: 1rem;
+}
+
+.bq-leaderboard-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bq-leaderboard-list li {
+  padding: 8px 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #eef6fb;
+}
+
+.bq-leaderboard-empty {
+  color: $mmaug-muted;
+  font-size: 0.95rem;
+  padding: 8px 0;
+}
+
 @keyframes slideDown {
   from {
     transform: translateY(-20px);
