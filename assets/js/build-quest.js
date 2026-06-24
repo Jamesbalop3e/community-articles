@@ -15,10 +15,34 @@
     this.progressFill = $('.bq-progress-fill', root);
     this.celebration = $('.bq-celebration', root);
 
-    this.load();
-    this.bind();
-    this.render();
-  }
+      // Leaderboard elements
+      this.leaderboardList = $('.bq-leaderboard-list', root);
+      this.leaderboardEmpty = $('.bq-leaderboard-empty', root);
+
+      // Timing & identity
+      this.startTime = Date.now();
+      this.name = null;
+      try { this.name = localStorage.getItem('mmaug.buildQuest.name') || null; } catch (e) { this.name = null; }
+
+      // Prompt for name on first load if not present
+      if (!this.name) {
+        try {
+          const n = window.prompt('Enter a display name for the Build Quest leaderboard (optional):', '');
+          if (n && n.trim()) {
+            this.name = n.trim();
+            try { localStorage.setItem('mmaug.buildQuest.name', this.name); } catch (e) { }
+          }
+        } catch (e) { /* ignore prompt errors */ }
+      }
+
+      // Don't record multiple completions in the same session
+      this.sessionCompleted = sessionStorage.getItem('mmaug.buildQuest.completed') === '1';
+
+      this.load();
+      this.bind();
+      this.render();
+      this.renderLeaderboard();
+    }
 
   BuildQuest.prototype.bind = function () {
     // Use event delegation on the root element to avoid missing handlers
@@ -86,7 +110,19 @@
     this.current = next;
     this.save();
     this.render();
-  };
+
+      // If user reached the last step, record completion once per session
+      if (this.current === this.steps.length - 1 && !this.sessionCompleted) {
+        try {
+          const elapsed = Date.now() - this.startTime;
+          this.recordCompletion(elapsed);
+          sessionStorage.setItem('mmaug.buildQuest.completed', '1');
+          this.sessionCompleted = true;
+        } catch (e) {
+          console.warn('BuildQuest: failed to record completion', e);
+        }
+      }
+    };
 
   BuildQuest.prototype.render = function () {
     this.steps.forEach((el, i) => {
@@ -109,6 +145,63 @@
       this.progressFill.setAttribute('aria-valuenow', String(pct));
     }
   };
+
+  BuildQuest.prototype.recordCompletion = function (elapsedMs) {
+    try {
+      const name = this.name || 'Anonymous';
+      this.addLeaderboardEntry(name, elapsedMs);
+      this.renderLeaderboard();
+    } catch (e) {
+      console.warn('BuildQuest: recordCompletion failed', e);
+    }
+  };
+
+  BuildQuest.prototype.loadLeaderboard = function () {
+    try {
+      const raw = localStorage.getItem('mmaug.buildQuest.leaderboard');
+      if (!raw) return [];
+      const parsed = JSON.parse(raw);
+      if (Array.isArray(parsed)) return parsed;
+      return [];
+    } catch (e) {
+      return [];
+    }
+  };
+
+  BuildQuest.prototype.saveLeaderboard = function (list) {
+    try {
+      localStorage.setItem('mmaug.buildQuest.leaderboard', JSON.stringify(list));
+    } catch (e) {
+      console.warn('BuildQuest: failed to save leaderboard', e);
+    }
+  };
+
+  BuildQuest.prototype.addLeaderboardEntry = function (name, timeMs) {
+    const list = this.loadLeaderboard();
+    list.push({ name: String(name || 'Anonymous'), timeMs: Number(timeMs || 0), ts: Date.now() });
+    list.sort((a, b) => a.timeMs - b.timeMs);
+    const top = list.slice(0, 5); // keep top 5
+    this.saveLeaderboard(top);
+  };
+
+  BuildQuest.prototype.renderLeaderboard = function () {
+    if (!this.leaderboardList || !this.leaderboardEmpty) return;
+    const list = this.loadLeaderboard();
+    if (!list.length) {
+      this.leaderboardList.setAttribute('aria-hidden', 'true');
+      this.leaderboardEmpty.style.display = 'block';
+      this.leaderboardList.innerHTML = '';
+      return;
+    }
+    this.leaderboardEmpty.style.display = 'none';
+    this.leaderboardList.setAttribute('aria-hidden', 'false');
+    this.leaderboardList.innerHTML = list.map((entry) => {
+      const s = (entry.timeMs / 1000).toFixed(2) + 's';
+      return `<li><strong>${escapeHtml(entry.name)}</strong> — ${s}</li>`;
+    }).join('');
+  };
+
+  function escapeHtml(s) { return String(s).replace(/[&<>\"']/g, function (c) { return { '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;' }[c]; }); }
 
   function initBuildQuest() {
     const root = document.getElementById('build-quest');

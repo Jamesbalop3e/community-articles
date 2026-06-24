@@ -11,6 +11,12 @@ permalink: /build-quest/
     <div class="bq-ribbon">🎉 Congratulations! You've successfully completed this task! 🎉</div>
   </div>
 
+  <aside class="bq-leaderboard" aria-labelledby="bq-leaderboard-title" role="region">
+    <h3 id="bq-leaderboard-title">Leaderboard</h3>
+    <ol class="bq-leaderboard-list" aria-live="polite"></ol>
+    <div class="bq-leaderboard-empty">No entries yet.</div>
+  </aside>
+
   <ol class="bq-steps">
     <li class="bq-step" data-step="1">
       <h3>Step 1 — Clone the repo</h3>
