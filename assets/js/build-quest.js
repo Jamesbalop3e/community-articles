@@ -23,19 +23,24 @@
   BuildQuest.prototype.bind = function () {
     // Use event delegation on the root element to avoid missing handlers
     if (this.root && this.root.addEventListener) {
-      this.root.addEventListener('click', (e) => {
-        const btn = e.target.closest && e.target.closest('.bq-next, .bq-prev');
-        if (!btn) return;
-        e.preventDefault();
-        if (btn.classList.contains('bq-next')) {
-          // log for debugging
+      const delegateHandler = (e) => {
+          const target = e.target || e.srcElement;
+          const closest = (target && target.closest) ? target.closest('.bq-next, .bq-prev') : null;
+          if (!closest) return;
+          e.preventDefault();
+          if (closest.classList.contains('bq-next')) {
           console.debug('BuildQuest: next clicked');
           this.go(this.current + 1);
-        } else if (btn.classList.contains('bq-prev')) {
+          } else if (closest.classList.contains('bq-prev')) {
           console.debug('BuildQuest: prev clicked');
           this.go(this.current - 1);
         }
-      });
+        };
+
+        this.root.addEventListener('click', delegateHandler);
+        // also listen for pointer/touch events for better responsiveness on mobile
+        if (window.PointerEvent) this.root.addEventListener('pointerdown', delegateHandler);
+        else this.root.addEventListener('touchstart', delegateHandler, { passive: true });
     } else {
       // fallback to direct binding
       if (this.nextBtn) {
