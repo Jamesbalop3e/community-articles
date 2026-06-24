@@ -21,16 +21,34 @@
   }
 
   BuildQuest.prototype.bind = function () {
-    if (this.nextBtn) {
-      this.nextBtn.addEventListener('click', () => this.go(this.current + 1));
+    // Use event delegation on the root element to avoid missing handlers
+    if (this.root && this.root.addEventListener) {
+      this.root.addEventListener('click', (e) => {
+        const btn = e.target.closest && e.target.closest('.bq-next, .bq-prev');
+        if (!btn) return;
+        e.preventDefault();
+        if (btn.classList.contains('bq-next')) {
+          // log for debugging
+          console.debug('BuildQuest: next clicked');
+          this.go(this.current + 1);
+        } else if (btn.classList.contains('bq-prev')) {
+          console.debug('BuildQuest: prev clicked');
+          this.go(this.current - 1);
+        }
+      });
     } else {
-      console.warn('BuildQuest: next button not found');
-    }
+      // fallback to direct binding
+      if (this.nextBtn) {
+        this.nextBtn.addEventListener('click', () => this.go(this.current + 1));
+      } else {
+        console.warn('BuildQuest: next button not found');
+      }
 
-    if (this.prevBtn) {
-      this.prevBtn.addEventListener('click', () => this.go(this.current - 1));
-    } else {
-      console.warn('BuildQuest: prev button not found');
+      if (this.prevBtn) {
+        this.prevBtn.addEventListener('click', () => this.go(this.current - 1));
+      } else {
+        console.warn('BuildQuest: prev button not found');
+      }
     }
 
     // Keyboard navigation is global; keep it but guard calls
