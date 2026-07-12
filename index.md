@@ -75,7 +75,6 @@ hide_tagline: false
   <div class="event-carousel" data-event-carousel>
     <button class="carousel-control carousel-control-prev" type="button" aria-label="Scroll upcoming events left" data-carousel-prev>&lsaquo;</button>
     <div class="event-grid event-carousel-track" data-carousel-track tabindex="0">
-    
     <article class="event-card" data-event-date="2026-07-25">
       <p class="event-kicker">Jul 25</p>
       <h3>From Single Agent to Multi-Agent Workflows in Microsoft Azure AI Foundry</h3>
@@ -99,6 +98,12 @@ hide_tagline: false
       <h3>Azure AI Foundry: From AI Experiments to Enterprise-Grade AI Agents</h3>
       <p>Enterprises are moving beyond AI pilots toward governed, production-ready AI agents—but fragmented tools and operational complexity often slow progress.</p>
       <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/315242038/" target="_blank" rel="noopener">View event</a>
+    </article>
+    <article class="event-card" data-event-date="2026-11-28">
+      <p class="event-kicker">Nov 28</p>
+      <h3>Building Voice Agents with Azure AI Foundry and the Realtime API</h3>
+      <p>Session title: **Talk to the Future—Building Voice Agents with Azure AI Foundry and the Realtime API** #### Description **What** A demo-driven, architecture-focused 60-minute...</p>
+      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/315641300/" target="_blank" rel="noopener">View event</a>
     </article>
     </div>
     <button class="carousel-control carousel-control-next" type="button" aria-label="Scroll upcoming events right" data-carousel-next>&rsaquo;</button>
