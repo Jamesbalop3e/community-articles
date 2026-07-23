@@ -93,6 +93,12 @@ hide_tagline: false
       <p>Implementing Responsible AI (RAI) and content safety in enterprise AI agents is fundamental to ensuring that autonomous and semi‑autonomous systems operate ethically, securely,...</p>
       <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/315241697/" target="_blank" rel="noopener">View event</a>
     </article>
+    <article class="event-card" data-event-date="2026-09-26">
+      <p class="event-kicker">Sep 26</p>
+      <h3>Real-Time AI Driven Fraud Detection for Telecom Promotional Systems</h3>
+      <p>The rapid expansion of digital services in telecommunications has introduced new vulnerabilities, particularly in promotional discount ecosystems where fraud actors exploit...</p>
+      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/315788869/" target="_blank" rel="noopener">View event</a>
+    </article>
     <article class="event-card" data-event-date="2026-10-10">
       <p class="event-kicker">Oct 10</p>
       <h3>Azure AI Foundry: From AI Experiments to Enterprise-Grade AI Agents</h3>
