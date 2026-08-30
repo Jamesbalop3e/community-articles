@@ -75,7 +75,6 @@ hide_tagline: false
   <div class="event-carousel" data-event-carousel>
     <button class="carousel-control carousel-control-prev" type="button" aria-label="Scroll upcoming events left" data-carousel-prev>&lsaquo;</button>
     <div class="event-grid event-carousel-track" data-carousel-track tabindex="0">
-    
     <article class="event-card" data-event-date="2026-09-12">
       <p class="event-kicker">Sep 12</p>
       <h3>Implementing Responsible AI and Content Safety in Enterprise AI Agents</h3>
