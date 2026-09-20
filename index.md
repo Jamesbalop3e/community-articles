@@ -75,12 +75,7 @@ hide_tagline: false
   <div class="event-carousel" data-event-carousel>
     <button class="carousel-control carousel-control-prev" type="button" aria-label="Scroll upcoming events left" data-carousel-prev>&lsaquo;</button>
     <div class="event-grid event-carousel-track" data-carousel-track tabindex="0">
-    <article class="event-card" data-event-date="2026-09-19">
-      <p class="event-kicker">Sep 19</p>
-      <h3>Prompt Fraud: The New AI Risk Internal Auditors Can’t Afford to Ignore</h3>
-      <p>Generative AI is rapidly transforming finance, compliance, and internal audit—but it is also creating a new and largely invisible fraud vector.</p>
-      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316085278/" target="_blank" rel="noopener">View event</a>
-    </article>
+    
     <article class="event-card" data-event-date="2026-09-26">
       <p class="event-kicker">Sep 26</p>
       <h3>Real-Time AI Driven Fraud Detection for Telecom Promotional Systems</h3>
@@ -112,6 +107,15 @@ hide_tagline: false
     <section class="side-widget past-events-widget">
       <p class="eyebrow">Past events</p>
       <h2>Community archive</h2>
+      <article class="past-event-item past-event-hidden" data-event-date="2026-09-19">
+        <p class="event-kicker">September 19, 2026</p>
+        <h3>Prompt Fraud: The New AI Risk Internal Auditors Can’t Afford to Ignore</h3>
+        <p>Generative AI is rapidly transforming finance, compliance, and internal audit—but it is also creating a new and largely invisible fraud vector.</p>
+        <div class="past-event-actions">
+          <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316085278/" target="_blank" rel="noopener">Event details</a>
+          <a href="https://www.youtube.com/@MaltaMicrosoftAIUserGroupMMAUG" target="_blank" rel="noopener">Catch up on the recording on our YouTube channel</a>
+        </div>
+      </article>
       <article class="past-event-item past-event-hidden" data-event-date="2026-09-12">
         <p class="event-kicker">September 12, 2026</p>
         <h3>Implementing Responsible AI and Content Safety in Enterprise AI Agents</h3>
