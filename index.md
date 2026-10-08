@@ -75,7 +75,6 @@ hide_tagline: false
   <div class="event-carousel" data-event-carousel>
     <button class="carousel-control carousel-control-prev" type="button" aria-label="Scroll upcoming events left" data-carousel-prev>&lsaquo;</button>
     <div class="event-grid event-carousel-track" data-carousel-track tabindex="0">
-    
     <article class="event-card" data-event-date="2026-10-08">
       <p class="event-kicker">Oct 8</p>
       <h3>Responsible AI for AI Builders</h3>
@@ -105,6 +104,12 @@ hide_tagline: false
       <h3>Microsoft Foundry Overview and Single Agent Deployment</h3>
       <p>In this hands-on session, participants will explore Microsoft Foundry and learn how it supports the development, testing and deployment of AI solutions.</p>
       <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316862941/" target="_blank" rel="noopener">View event</a>
+    </article>
+    <article class="event-card" data-event-date="2026-10-13">
+      <p class="event-kicker">Oct 13</p>
+      <h3>DevOps Tooling</h3>
+      <p>This session introduces the essential tools used across the DevOps lifecycle to plan, build, test, deploy, monitor, and manage modern applications, including source control,...</p>
+      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316862950/" target="_blank" rel="noopener">View event</a>
     </article>
     </div>
     <button class="carousel-control carousel-control-next" type="button" aria-label="Scroll upcoming events right" data-carousel-next>&rsaquo;</button>
