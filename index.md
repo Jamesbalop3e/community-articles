@@ -75,12 +75,7 @@ hide_tagline: false
   <div class="event-carousel" data-event-carousel>
     <button class="carousel-control carousel-control-prev" type="button" aria-label="Scroll upcoming events left" data-carousel-prev>&lsaquo;</button>
     <div class="event-grid event-carousel-track" data-carousel-track tabindex="0">
-    <article class="event-card" data-event-date="2026-10-09">
-      <p class="event-kicker">Oct 9</p>
-      <h3>Learn the ABCs of Git &amp; GitHub for AI Apps</h3>
-      <p>As part of the MMAUG 30-Day AI and DevOps Fundamentals Bootcamp, this beginner-friendly session will introduce participants to the core concepts of Git and GitHub and their...</p>
-      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316862913/" target="_blank" rel="noopener">View event</a>
-    </article>
+    
     <article class="event-card" data-event-date="2026-10-10">
       <p class="event-kicker">Oct 10</p>
       <h3>AI Security Fundamentals</h3>
@@ -124,6 +119,15 @@ hide_tagline: false
     <section class="side-widget past-events-widget">
       <p class="eyebrow">Past events</p>
       <h2>Community archive</h2>
+      <article class="past-event-item past-event-hidden" data-event-date="2026-10-09">
+        <p class="event-kicker">October 9, 2026</p>
+        <h3>Learn the ABCs of Git &amp; GitHub for AI Apps</h3>
+        <p>As part of the MMAUG 30-Day AI and DevOps Fundamentals Bootcamp, this beginner-friendly session will introduce participants to the core concepts of Git and GitHub and their...</p>
+        <div class="past-event-actions">
+          <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316862913/" target="_blank" rel="noopener">Event details</a>
+          <a href="https://www.youtube.com/@MaltaMicrosoftAIUserGroupMMAUG" target="_blank" rel="noopener">Catch up on the recording on our YouTube channel</a>
+        </div>
+      </article>
       <article class="past-event-item past-event-hidden" data-event-date="2026-10-08">
         <p class="event-kicker">October 8, 2026</p>
         <h3>Responsible AI for AI Builders</h3>
