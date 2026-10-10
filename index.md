@@ -75,13 +75,6 @@ hide_tagline: false
   <div class="event-carousel" data-event-carousel>
     <button class="carousel-control carousel-control-prev" type="button" aria-label="Scroll upcoming events left" data-carousel-prev>&lsaquo;</button>
     <div class="event-grid event-carousel-track" data-carousel-track tabindex="0">
-    
-    <article class="event-card" data-event-date="2026-10-10">
-      <p class="event-kicker">Oct 10</p>
-      <h3>AI Security Fundamentals</h3>
-      <p>Most AI adoption projects fail because organizations move so quickly that they overlook the fundamentals of securing AI systems.</p>
-      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316862934/" target="_blank" rel="noopener">View event</a>
-    </article>
     <article class="event-card" data-event-date="2026-10-10">
       <p class="event-kicker">Oct 10</p>
       <h3>Azure AI Foundry: From AI Experiments to Enterprise-Grade AI Agents</h3>
@@ -105,6 +98,18 @@ hide_tagline: false
       <h3>Code Smarter, Not Alone: Your First Steps with GitHub Copilot</h3>
       <p>Explore how GitHub Copilot can help beginners learn programming, understand unfamiliar code, fix errors, and turn ideas into working software.</p>
       <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316862961/" target="_blank" rel="noopener">View event</a>
+    </article>
+    <article class="event-card" data-event-date="2026-10-15">
+      <p class="event-kicker">Oct 15</p>
+      <h3>How Large Language Models Actually Work (Without the Hype)</h3>
+      <p>This session explains how large language models work using plain language and accessible analogies.</p>
+      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316862962/" target="_blank" rel="noopener">View event</a>
+    </article>
+    <article class="event-card" data-event-date="2026-10-16">
+      <p class="event-kicker">Oct 16</p>
+      <h3>Hands-On with GitHub Copilot: Agents, Automation, and MCP Integration</h3>
+      <p>Start with the basics of GitHub Copilot in VS Code, then take a deeper dive into agent mode.</p>
+      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316862969/" target="_blank" rel="noopener">View event</a>
     </article>
     </div>
     <button class="carousel-control carousel-control-next" type="button" aria-label="Scroll upcoming events right" data-carousel-next>&rsaquo;</button>
