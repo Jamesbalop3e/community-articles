@@ -75,7 +75,6 @@ hide_tagline: false
   <div class="event-carousel" data-event-carousel>
     <button class="carousel-control carousel-control-prev" type="button" aria-label="Scroll upcoming events left" data-carousel-prev>&lsaquo;</button>
     <div class="event-grid event-carousel-track" data-carousel-track tabindex="0">
-    
     <article class="event-card" data-event-date="2026-10-13">
       <p class="event-kicker">Oct 13</p>
       <h3>DevOps Tooling</h3>
@@ -105,6 +104,12 @@ hide_tagline: false
       <h3>Python, Docker &amp; IaC Fundamentals for Beginners</h3>
       <p>This beginner-friendly session introduces Python for scripting and automation, Docker for packaging applications into portable containers, and Infrastructure as Code for...</p>
       <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316862977/" target="_blank" rel="noopener">View event</a>
+    </article>
+    <article class="event-card" data-event-date="2026-10-19">
+      <p class="event-kicker">Oct 19</p>
+      <h3>Automating Azure DevOps Workflows Using Foundry Models</h3>
+      <p>Learn how intelligent, agent-driven capabilities from Microsoft Foundry can streamline Azure DevOps processes, reduce manual effort, and enable adaptive decision-making through...</p>
+      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316862982/" target="_blank" rel="noopener">View event</a>
     </article>
     </div>
     <button class="carousel-control carousel-control-next" type="button" aria-label="Scroll upcoming events right" data-carousel-next>&rsaquo;</button>
