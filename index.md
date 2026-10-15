@@ -75,12 +75,7 @@ hide_tagline: false
   <div class="event-carousel" data-event-carousel>
     <button class="carousel-control carousel-control-prev" type="button" aria-label="Scroll upcoming events left" data-carousel-prev>&lsaquo;</button>
     <div class="event-grid event-carousel-track" data-carousel-track tabindex="0">
-    <article class="event-card" data-event-date="2026-10-14">
-      <p class="event-kicker">Oct 14</p>
-      <h3>Code Smarter, Not Alone: Your First Steps with GitHub Copilot</h3>
-      <p>Explore how GitHub Copilot can help beginners learn programming, understand unfamiliar code, fix errors, and turn ideas into working software.</p>
-      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316862961/" target="_blank" rel="noopener">View event</a>
-    </article>
+    
     <article class="event-card" data-event-date="2026-10-15">
       <p class="event-kicker">Oct 15</p>
       <h3>How Large Language Models Actually Work (Without the Hype)</h3>
@@ -124,6 +119,15 @@ hide_tagline: false
     <section class="side-widget past-events-widget">
       <p class="eyebrow">Past events</p>
       <h2>Community archive</h2>
+      <article class="past-event-item past-event-hidden" data-event-date="2026-10-14">
+        <p class="event-kicker">October 14, 2026</p>
+        <h3>Code Smarter, Not Alone: Your First Steps with GitHub Copilot</h3>
+        <p>Explore how GitHub Copilot can help beginners learn programming, understand unfamiliar code, fix errors, and turn ideas into working software.</p>
+        <div class="past-event-actions">
+          <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316862961/" target="_blank" rel="noopener">Event details</a>
+          <a href="https://www.youtube.com/@MaltaMicrosoftAIUserGroupMMAUG" target="_blank" rel="noopener">Catch up on the recording on our YouTube channel</a>
+        </div>
+      </article>
       <article class="past-event-item past-event-hidden" data-event-date="2026-10-13">
         <p class="event-kicker">October 13, 2026</p>
         <h3>DevOps Tooling</h3>
