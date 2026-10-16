@@ -75,7 +75,6 @@ hide_tagline: false
   <div class="event-carousel" data-event-carousel>
     <button class="carousel-control carousel-control-prev" type="button" aria-label="Scroll upcoming events left" data-carousel-prev>&lsaquo;</button>
     <div class="event-grid event-carousel-track" data-carousel-track tabindex="0">
-    
     <article class="event-card" data-event-date="2026-10-16">
       <p class="event-kicker">Oct 16</p>
       <h3>Hands-On with GitHub Copilot: Agents, Automation, and MCP Integration</h3>
@@ -105,6 +104,12 @@ hide_tagline: false
       <h3>Prompt Craft Foundations</h3>
       <p>Learn the three key abilities needed to work effectively with AI language models: creating clear and well-structured prompts, providing appropriate context such as documents,...</p>
       <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316862991/" target="_blank" rel="noopener">View event</a>
+    </article>
+    <article class="event-card" data-event-date="2026-10-22">
+      <p class="event-kicker">Oct 22</p>
+      <h3>Building Smarter Agents with Reflection and Planning</h3>
+      <p>Move beyond single-response agents by implementing reflection and planning cycles that allow agents to evaluate, refine, and improve their outputs.</p>
+      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316862999/" target="_blank" rel="noopener">View event</a>
     </article>
     </div>
     <button class="carousel-control carousel-control-next" type="button" aria-label="Scroll upcoming events right" data-carousel-next>&rsaquo;</button>
