@@ -75,7 +75,6 @@ hide_tagline: false
   <div class="event-carousel" data-event-carousel>
     <button class="carousel-control carousel-control-prev" type="button" aria-label="Scroll upcoming events left" data-carousel-prev>&lsaquo;</button>
     <div class="event-grid event-carousel-track" data-carousel-track tabindex="0">
-    
     <article class="event-card" data-event-date="2026-10-19">
       <p class="event-kicker">Oct 19</p>
       <h3>Automating Azure DevOps Workflows Using Foundry Models</h3>
@@ -105,6 +104,12 @@ hide_tagline: false
       <h3>Agent Chaos to Agent Control: Building an Enterprise Agent Governance Layer with</h3>
       <p>Explore production-grade agent governance using Microsoft Foundry Toolboxes, Agent Framework, and Entra Agent Identity, covering tool discovery, least-privilege enforcement,...</p>
       <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316863004/" target="_blank" rel="noopener">View event</a>
+    </article>
+    <article class="event-card" data-event-date="2026-10-24">
+      <p class="event-kicker">Oct 24</p>
+      <h3>From Vague Idea to Structured Spec: Your First Agentic AI Workflow (No Coding Re</h3>
+      <p>Agentic AI often gets sold as “the agent does everything,” with little explanation of what is actually happening or where it can go wrong.</p>
+      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316863008/" target="_blank" rel="noopener">View event</a>
     </article>
     </div>
     <button class="carousel-control carousel-control-next" type="button" aria-label="Scroll upcoming events right" data-carousel-next>&rsaquo;</button>
