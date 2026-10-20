@@ -75,7 +75,6 @@ hide_tagline: false
   <div class="event-carousel" data-event-carousel>
     <button class="carousel-control carousel-control-prev" type="button" aria-label="Scroll upcoming events left" data-carousel-prev>&lsaquo;</button>
     <div class="event-grid event-carousel-track" data-carousel-track tabindex="0">
-    
     <article class="event-card" data-event-date="2026-10-20">
       <p class="event-kicker">Oct 20</p>
       <h3>Exploring Specialized Agents in Microsoft 365 Copilot</h3>
@@ -105,6 +104,12 @@ hide_tagline: false
       <h3>From Vague Idea to Structured Spec: Your First Agentic AI Workflow (No Coding Re</h3>
       <p>Agentic AI often gets sold as “the agent does everything,” with little explanation of what is actually happening or where it can go wrong.</p>
       <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316863008/" target="_blank" rel="noopener">View event</a>
+    </article>
+    <article class="event-card" data-event-date="2026-10-26">
+      <p class="event-kicker">Oct 26</p>
+      <h3>Git &amp; GitHub: From Zero to Contributor</h3>
+      <p>This hands-on session demystifies Git and GitHub, from understanding version control through practical analogies to using Git commands and completing the GitHub collaboration workflow.</p>
+      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316863012/" target="_blank" rel="noopener">View event</a>
     </article>
     </div>
     <button class="carousel-control carousel-control-next" type="button" aria-label="Scroll upcoming events right" data-carousel-next>&rsaquo;</button>
