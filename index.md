@@ -75,12 +75,7 @@ hide_tagline: false
   <div class="event-carousel" data-event-carousel>
     <button class="carousel-control carousel-control-prev" type="button" aria-label="Scroll upcoming events left" data-carousel-prev>&lsaquo;</button>
     <div class="event-grid event-carousel-track" data-carousel-track tabindex="0">
-    <article class="event-card" data-event-date="2026-10-20">
-      <p class="event-kicker">Oct 20</p>
-      <h3>Exploring Specialized Agents in Microsoft 365 Copilot</h3>
-      <p>Take a hands-on tour of Researcher, Analyst, and Facilitator agents in Microsoft 365 Copilot.</p>
-      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316862985/" target="_blank" rel="noopener">View event</a>
-    </article>
+    
     <article class="event-card" data-event-date="2026-10-21">
       <p class="event-kicker">Oct 21</p>
       <h3>Prompt Craft Foundations</h3>
@@ -124,6 +119,15 @@ hide_tagline: false
     <section class="side-widget past-events-widget">
       <p class="eyebrow">Past events</p>
       <h2>Community archive</h2>
+      <article class="past-event-item past-event-hidden" data-event-date="2026-10-20">
+        <p class="event-kicker">October 20, 2026</p>
+        <h3>Exploring Specialized Agents in Microsoft 365 Copilot</h3>
+        <p>Take a hands-on tour of Researcher, Analyst, and Facilitator agents in Microsoft 365 Copilot.</p>
+        <div class="past-event-actions">
+          <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316862985/" target="_blank" rel="noopener">Event details</a>
+          <a href="https://www.youtube.com/@MaltaMicrosoftAIUserGroupMMAUG" target="_blank" rel="noopener">Catch up on the recording on our YouTube channel</a>
+        </div>
+      </article>
       <article class="past-event-item past-event-hidden" data-event-date="2026-10-19">
         <p class="event-kicker">October 19, 2026</p>
         <h3>Automating Azure DevOps Workflows Using Foundry Models</h3>
