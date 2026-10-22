@@ -75,7 +75,6 @@ hide_tagline: false
   <div class="event-carousel" data-event-carousel>
     <button class="carousel-control carousel-control-prev" type="button" aria-label="Scroll upcoming events left" data-carousel-prev>&lsaquo;</button>
     <div class="event-grid event-carousel-track" data-carousel-track tabindex="0">
-    
     <article class="event-card" data-event-date="2026-10-22">
       <p class="event-kicker">Oct 22</p>
       <h3>Building Smarter Agents with Reflection and Planning</h3>
@@ -105,6 +104,12 @@ hide_tagline: false
       <h3>Advanced Cloud Architecture &amp; DevOps CICD Pipeline Process</h3>
       <p>This advanced session examines enterprise-grade AI architecture and how pipelines securely move applications from code commit to production, including automated testing,...</p>
       <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316863015/" target="_blank" rel="noopener">View event</a>
+    </article>
+    <article class="event-card" data-event-date="2026-10-28">
+      <p class="event-kicker">Oct 28</p>
+      <h3>Capstone Project: Contoso Recruitment Assistant</h3>
+      <p>Design an AI-assisted recruitment solution that structures candidate evidence, supports recruiter analysis and interview preparation, and keeps all hiring decisions under human control.</p>
+      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316863048/" target="_blank" rel="noopener">View event</a>
     </article>
     </div>
     <button class="carousel-control carousel-control-next" type="button" aria-label="Scroll upcoming events right" data-carousel-next>&rsaquo;</button>
