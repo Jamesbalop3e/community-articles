@@ -75,7 +75,6 @@ hide_tagline: false
   <div class="event-carousel" data-event-carousel>
     <button class="carousel-control carousel-control-prev" type="button" aria-label="Scroll upcoming events left" data-carousel-prev>&lsaquo;</button>
     <div class="event-grid event-carousel-track" data-carousel-track tabindex="0">
-    
     <article class="event-card" data-event-date="2026-10-24">
       <p class="event-kicker">Oct 24</p>
       <h3>From Vague Idea to Structured Spec: Your First Agentic AI Workflow (No Coding Re</h3>
@@ -105,6 +104,12 @@ hide_tagline: false
       <h3>Capstone Project: MMAUG Insurance Claims Agent</h3>
       <p>Build an agentic claims workflow that extracts and validates claim information, retrieves authorised policy evidence, handles missing data safely, and prepares a traceable summary for human review.</p>
       <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316863051/" target="_blank" rel="noopener">View event</a>
+    </article>
+    <article class="event-card" data-event-date="2026-10-29">
+      <p class="event-kicker">Oct 29</p>
+      <h3>Capstone Project: MMAUG High School Secure Login Portal</h3>
+      <p>Create a secure school portal with strong authentication, server-side role-based access, protected APIs, account administration, audit history and repeatable DevSecOps delivery.</p>
+      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316863053/" target="_blank" rel="noopener">View event</a>
     </article>
     </div>
     <button class="carousel-control carousel-control-next" type="button" aria-label="Scroll upcoming events right" data-carousel-next>&rsaquo;</button>
