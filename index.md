@@ -75,12 +75,7 @@ hide_tagline: false
   <div class="event-carousel" data-event-carousel>
     <button class="carousel-control carousel-control-prev" type="button" aria-label="Scroll upcoming events left" data-carousel-prev>&lsaquo;</button>
     <div class="event-grid event-carousel-track" data-carousel-track tabindex="0">
-    <article class="event-card" data-event-date="2026-10-24">
-      <p class="event-kicker">Oct 24</p>
-      <h3>From Vague Idea to Structured Spec: Your First Agentic AI Workflow (No Coding Re</h3>
-      <p>Agentic AI often gets sold as “the agent does everything,” with little explanation of what is actually happening or where it can go wrong.</p>
-      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316863008/" target="_blank" rel="noopener">View event</a>
-    </article>
+    
     <article class="event-card" data-event-date="2026-10-26">
       <p class="event-kicker">Oct 26</p>
       <h3>Git &amp; GitHub: From Zero to Contributor</h3>
@@ -124,6 +119,15 @@ hide_tagline: false
     <section class="side-widget past-events-widget">
       <p class="eyebrow">Past events</p>
       <h2>Community archive</h2>
+      <article class="past-event-item past-event-hidden" data-event-date="2026-10-24">
+        <p class="event-kicker">October 24, 2026</p>
+        <h3>From Vague Idea to Structured Spec: Your First Agentic AI Workflow (No Coding Re</h3>
+        <p>Agentic AI often gets sold as “the agent does everything,” with little explanation of what is actually happening or where it can go wrong.</p>
+        <div class="past-event-actions">
+          <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316863008/" target="_blank" rel="noopener">Event details</a>
+          <a href="https://www.youtube.com/@MaltaMicrosoftAIUserGroupMMAUG" target="_blank" rel="noopener">Catch up on the recording on our YouTube channel</a>
+        </div>
+      </article>
       <article class="past-event-item past-event-hidden" data-event-date="2026-10-23">
         <p class="event-kicker">October 23, 2026</p>
         <h3>Agent Chaos to Agent Control: Building an Enterprise Agent Governance Layer with</h3>
