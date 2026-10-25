@@ -75,7 +75,6 @@ hide_tagline: false
   <div class="event-carousel" data-event-carousel>
     <button class="carousel-control carousel-control-prev" type="button" aria-label="Scroll upcoming events left" data-carousel-prev>&lsaquo;</button>
     <div class="event-grid event-carousel-track" data-carousel-track tabindex="0">
-    
     <article class="event-card" data-event-date="2026-10-26">
       <p class="event-kicker">Oct 26</p>
       <h3>Git &amp; GitHub: From Zero to Contributor</h3>
@@ -105,6 +104,12 @@ hide_tagline: false
       <h3>Capstone Project: MMAUG High School Secure Login Portal</h3>
       <p>Create a secure school portal with strong authentication, server-side role-based access, protected APIs, account administration, audit history and repeatable DevSecOps delivery.</p>
       <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316863053/" target="_blank" rel="noopener">View event</a>
+    </article>
+    <article class="event-card" data-event-date="2026-10-31">
+      <p class="event-kicker">Oct 31</p>
+      <h3>Capstone Project: Fabrikam Mobility Taxi Recommender</h3>
+      <p>Create an extensible mobility recommender using permitted sandbox or public integrations and customer-provided mock services where commercial APIs are unavailable.</p>
+      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316863055/" target="_blank" rel="noopener">View event</a>
     </article>
     </div>
     <button class="carousel-control carousel-control-next" type="button" aria-label="Scroll upcoming events right" data-carousel-next>&rsaquo;</button>
