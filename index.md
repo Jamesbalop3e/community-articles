@@ -75,7 +75,6 @@ hide_tagline: false
   <div class="event-carousel" data-event-carousel>
     <button class="carousel-control carousel-control-prev" type="button" aria-label="Scroll upcoming events left" data-carousel-prev>&lsaquo;</button>
     <div class="event-grid event-carousel-track" data-carousel-track tabindex="0">
-    
     <article class="event-card" data-event-date="2026-10-28">
       <p class="event-kicker">Oct 28</p>
       <h3>Capstone Project: Contoso Recruitment Assistant</h3>
@@ -105,6 +104,12 @@ hide_tagline: false
       <h3>Capstone Project: MMAUG Bank Financial Fraud Detection Agent</h3>
       <p>Develop an explainable fraud-detection platform that evaluates synthetic transaction signals, creates evidence-based investigation alerts and keeps consequential actions with...</p>
       <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316863058/" target="_blank" rel="noopener">View event</a>
+    </article>
+    <article class="event-card" data-event-date="2026-11-28">
+      <p class="event-kicker">Nov 28</p>
+      <h3>Building Voice Agents with Azure AI Foundry and the Realtime API</h3>
+      <p>Session title: **Talk to the Future—Building Voice Agents with Azure AI Foundry and the Realtime API** #### Description **What** A demo-driven, architecture-focused 60-minute...</p>
+      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/315641300/" target="_blank" rel="noopener">View event</a>
     </article>
     </div>
     <button class="carousel-control carousel-control-next" type="button" aria-label="Scroll upcoming events right" data-carousel-next>&rsaquo;</button>
