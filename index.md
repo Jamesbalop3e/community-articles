@@ -75,18 +75,7 @@ hide_tagline: false
   <div class="event-carousel" data-event-carousel>
     <button class="carousel-control carousel-control-prev" type="button" aria-label="Scroll upcoming events left" data-carousel-prev>&lsaquo;</button>
     <div class="event-grid event-carousel-track" data-carousel-track tabindex="0">
-    <article class="event-card" data-event-date="2026-10-28">
-      <p class="event-kicker">Oct 28</p>
-      <h3>Capstone Project: Contoso Recruitment Assistant</h3>
-      <p>Design an AI-assisted recruitment solution that structures candidate evidence, supports recruiter analysis and interview preparation, and keeps all hiring decisions under human control.</p>
-      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316863048/" target="_blank" rel="noopener">View event</a>
-    </article>
-    <article class="event-card" data-event-date="2026-10-28">
-      <p class="event-kicker">Oct 28</p>
-      <h3>Capstone Project: MMAUG Insurance Claims Agent</h3>
-      <p>Build an agentic claims workflow that extracts and validates claim information, retrieves authorised policy evidence, handles missing data safely, and prepares a traceable summary for human review.</p>
-      <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316863051/" target="_blank" rel="noopener">View event</a>
-    </article>
+
     <article class="event-card" data-event-date="2026-10-29">
       <p class="event-kicker">Oct 29</p>
       <h3>Capstone Project: MMAUG High School Secure Login Portal</h3>
@@ -124,6 +113,24 @@ hide_tagline: false
     <section class="side-widget past-events-widget">
       <p class="eyebrow">Past events</p>
       <h2>Community archive</h2>
+      <article class="past-event-item past-event-hidden" data-event-date="2026-10-28">
+        <p class="event-kicker">October 28, 2026</p>
+        <h3>Capstone Project: Contoso Recruitment Assistant</h3>
+        <p>Design an AI-assisted recruitment solution that structures candidate evidence, supports recruiter analysis and interview preparation, and keeps all hiring decisions under human control.</p>
+        <div class="past-event-actions">
+          <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316863048/" target="_blank" rel="noopener">Event details</a>
+          <a href="https://www.youtube.com/@MaltaMicrosoftAIUserGroupMMAUG" target="_blank" rel="noopener">Catch up on the recording on our YouTube channel</a>
+        </div>
+      </article>
+      <article class="past-event-item past-event-hidden" data-event-date="2026-10-28">
+        <p class="event-kicker">October 28, 2026</p>
+        <h3>Capstone Project: MMAUG Insurance Claims Agent</h3>
+        <p>Build an agentic claims workflow that extracts and validates claim information, retrieves authorised policy evidence, handles missing data safely, and prepares a traceable summary for human review.</p>
+        <div class="past-event-actions">
+          <a href="https://www.meetup.com/malta-microsoft-ai-user-group/events/316863051/" target="_blank" rel="noopener">Event details</a>
+          <a href="https://www.youtube.com/@MaltaMicrosoftAIUserGroupMMAUG" target="_blank" rel="noopener">Catch up on the recording on our YouTube channel</a>
+        </div>
+      </article>
       <article class="past-event-item past-event-hidden" data-event-date="2026-10-27">
         <p class="event-kicker">October 27, 2026</p>
         <h3>Advanced Cloud Architecture &amp; DevOps CICD Pipeline Process</h3>
