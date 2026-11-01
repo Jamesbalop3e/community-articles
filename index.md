@@ -75,7 +75,6 @@ hide_tagline: false
   <div class="event-carousel" data-event-carousel>
     <button class="carousel-control carousel-control-prev" type="button" aria-label="Scroll upcoming events left" data-carousel-prev>&lsaquo;</button>
     <div class="event-grid event-carousel-track" data-carousel-track tabindex="0">
-
     <article class="event-card" data-event-date="2026-11-28">
       <p class="event-kicker">Nov 28</p>
       <h3>Building Voice Agents with Azure AI Foundry and the Realtime API</h3>
